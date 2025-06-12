@@ -1,0 +1,25 @@
+.memeDiv {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   background-color: #fff;
+   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+   border-radius: 12px;
+   margin-bottom: 10px;
+
+
+
+   .memeImg{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-bottom: 1px;
+    border: 1px solid  #fff;
+   }
+   .memeTitle{
+    color: black;
+   }
+}
+
